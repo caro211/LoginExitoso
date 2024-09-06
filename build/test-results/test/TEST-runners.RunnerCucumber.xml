@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="runners.RunnerCucumber" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-06T18:13:11" hostname="MBP-CHM3574.bbrouter" time="14.715">
+  <properties/>
+  <testcase name="Inicio de sesion exitoso" classname="runners.RunnerCucumber" time="14.715"/>
+  <system-out><![CDATA[13:13:11.416 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter -- Running feature from file:///Users/macbookprochm35741/Downloads/ProyectoBase/src/test/resources/features/Login.feature
+13:13:11.452 [Test worker] INFO  -- 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at https://serenity-bdd.info                                     
+ Documentation at https://serenity-bdd.github.io                                     
+ Test Automation Training and Coaching: https://www.serenity-dojo.com                
+ Commercial Support: https://www.serenity-dojo.com/serenity-bdd-enterprise-support   
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+-------------------------------------------------------------------------------------
+
+13:13:11.455 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus -- Test suite started for story net.thucydides.model.domain.Story@8c5fe920
+13:13:11.457 [Test worker] INFO  -- Test Suite Started: Inicio de sesion
+13:13:11.496 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter -- Running feature from file:///Users/macbookprochm35741/Downloads/ProyectoBase/src/test/resources/features/Login.feature
+13:13:11.498 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus -- Test suite started for story net.thucydides.model.domain.Story@8c5fe920
+13:13:11.498 [Test worker] INFO  -- Test Suite Started: Inicio de sesion
+13:13:11.532 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter -- Running feature from file:///Users/macbookprochm35741/Downloads/ProyectoBase/src/test/resources/features/Login.feature
+13:13:11.547 [Test worker] INFO  -- 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Inicio de sesion exitoso(inicio-de-sesion;inicio-de-sesion-exitoso)
+--------------------------------------------------------------------------------
+13:13:11.692 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - performAs
+13:13:11.703 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - {0} opens the browser at #url
+13:13:11.781 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider -- Starting Chrome driver instance with capabilities:
+13:13:11.783 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider -- Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --start-maximized, --test-type, --ignore-certificate-errors, --incognito, --disable-infobars, --disable-gpu, --disable-default-apps, --disable-popup-blocking], extensions: []}}
+13:13:19.434 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Opening darkroom
+13:13:19.434 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine -- Darkroom processing line starting up
+13:13:20.520 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for /Users/macbookprochm35741/Downloads/ProyectoBase/target/site/serenity/ef585667081ce1b1fc7988e6fd431ab8d771cab9bd641ac5f1829b0909331071.png
+13:13:20.523 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: {0} opens the browser at #url
+13:13:20.533 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: performAs
+13:13:21.474 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for /Users/macbookprochm35741/Downloads/ProyectoBase/target/site/serenity/bce3f077bf9e7be54e2237d74df6098ba252e4643a083ddd72f7024fb250f8ce.png
+13:13:21.475 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - performAs
+13:13:21.498 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - {0} enters #theTextAsAString into #target
+13:13:21.530 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for campo usuario
+13:13:22.678 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for /Users/macbookprochm35741/Downloads/ProyectoBase/target/site/serenity/47dacd07f81e027398d73a5f8ee37825c309b615bc9358beca96f69c838bff98.png
+13:13:22.678 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: {0} enters #theTextAsAString into #target
+13:13:22.688 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - {0} enters #theTextAsAString into #target
+13:13:22.695 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for campo contraseña
+13:13:23.675 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for /Users/macbookprochm35741/Downloads/ProyectoBase/target/site/serenity/8be06f97edfff1f907c1336b8abf8e85ebe074551ca46f2feaec69b4b3d464ed.png
+13:13:23.675 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: {0} enters #theTextAsAString into #target
+13:13:23.676 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine -- Processing screenshot image in /var/screenshots/screenshot-11930089262929430312
+13:13:23.676 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine -- Saving screenshot to /Users/macbookprochm35741/Downloads/ProyectoBase/target/site/serenity/8be06f97edfff1f907c1336b8abf8e85ebe074551ca46f2feaec69b4b3d464ed.png
+13:13:23.682 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STARTING STEP: StepInterceptor.testContext - {0} clicks on #target
+13:13:23.689 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Boton iniciar sesion
+13:13:25.120 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for /Users/macbookprochm35741/Downloads/ProyectoBase/target/site/serenity/cf2025f44f4184c3de34c6fc2df8d5fb7e9850d04e81e2dec9c7b885b0a1ee66.png
+13:13:25.120 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: {0} clicks on #target
+13:13:25.127 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor -- STEP DONE: performAs
+13:13:25.555 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for /Users/macbookprochm35741/Downloads/ProyectoBase/target/site/serenity/cf2025f44f4184c3de34c6fc2df8d5fb7e9850d04e81e2dec9c7b885b0a1ee66.png
+13:13:25.581 [Test worker] DEBUG net.serenitybdd.screenplay.targets.IFrameSwitcher -- default content already selected for Mensaje de bienvenida
+13:13:26.063 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Send negative for processing for /Users/macbookprochm35741/Downloads/ProyectoBase/target/site/serenity/cf2025f44f4184c3de34c6fc2df8d5fb7e9850d04e81e2dec9c7b885b0a1ee66.png
+13:13:26.209 [Test worker] INFO  -- 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Inicio de sesion exitoso
+----------------------------------------------------------------------
+13:13:26.218 [Test worker] DEBUG net.thucydides.model.reports.ReportService -- Reporting formats: [JSON]
+13:13:26.222 [Test worker] DEBUG net.thucydides.model.reports.ReportService -- Reporting formats: [JSON]
+13:13:26.228 [Test worker] DEBUG net.thucydides.model.reports.ReportService -- Generating reports for 1 test outcomes using: net.thucydides.model.reports.json.JSONTestOutcomeReporter@6b4fd7d
+13:13:26.229 [pool-3-thread-1] DEBUG net.thucydides.model.reports.ReportService -- Processing test outcome Inicio de sesion:Inicio de sesion exitoso
+13:13:26.229 [pool-3-thread-1] DEBUG net.thucydides.model.reports.ReportService -- net.thucydides.model.reports.json.JSONTestOutcomeReporter@6b4fd7d: Generating report for test outcome: Inicio de sesion:Inicio de sesion exitoso
+13:13:26.232 [pool-3-thread-1] DEBUG net.thucydides.model.reports.json.JSONTestOutcomeReporter -- Generating JSON report for Inicio de sesion exitoso to file /Users/macbookprochm35741/Downloads/ProyectoBase/target/site/serenity/1f7051586385f80693ac8adbffc1d3cce2856736d3df53928bfdf72cd05b8e3c.json)
+13:13:26.251 [pool-3-thread-1] DEBUG net.thucydides.model.reports.ReportService -- Processing test outcome Inicio de sesion:Inicio de sesion exitoso done
+13:13:26.252 [Test worker] DEBUG net.thucydides.model.reports.ReportService -- Shutting down executor service
+13:13:26.252 [Test worker] DEBUG net.thucydides.model.reports.ReportService -- Reports generated in: 24 ms
+13:13:26.322 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Closing darkroom
+13:13:26.322 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine -- Darkroom processing line shutting down
+13:13:26.324 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Closing darkroom
+]]></system-out>
+  <system-err><![CDATA[sep. 06, 2024 1:13:18 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 127
+sep. 06, 2024 1:13:18 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 127.0.6533.100. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+</testsuite>
